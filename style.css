@@ -1,0 +1,18 @@
+:root{
+
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.father{
+    background-color: antiquewhite;
+}
+
+.caja{
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+}
