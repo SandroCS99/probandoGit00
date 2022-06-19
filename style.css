@@ -1,21 +1,65 @@
-:root{
-
+:root {
+    --Color1: #EE7F98;
+    --color2: #E44D26;
+    --color3: #FFCA28;
+    --color4: #1DA6F3;
+    --color5: #37EB7E;
+    --color6: #BDBDBD;
+    --color7: #FFE975;
+    --color8: #FFFFFF;
+    --color9: #715EB4;
 }
 
-body{
+body {
     margin: 0px;
     padding: 0px;
 }
 
-.father{
+.father {
     background-color: #303443;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
-.caja{
+.caja {
     height: 100px;
     width: 100px;
     border-style: solid;
-    background-color: #8ACCF3;
+    margin: 15px;
+}
+
+.caja1 {
+    background-color: var(--Color1);
+}
+
+.caja2 {
+    background-color: var(--color2);
+}
+
+.caja3 {
+    background-color: var(--color3);
+}
+
+.caja4 {
+    background-color: var(--color4);
+}
+
+.caja5 {
+    background-color: var(--color5);
+}
+
+.caja6 {
+    background-color: var(--color6);
+}
+
+.caja7 {
+    background-color: var(--color7);
+}
+
+.caja8 {
+    background-color: var(--color8);
+}
+
+.caja9 {
+    background-color: var(--color9);
 }
