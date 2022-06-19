@@ -8,11 +8,14 @@ body{
 }
 
 .father{
-    background-color: antiquewhite;
+    background-color: #303443;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .caja{
     height: 100px;
     width: 100px;
     border-style: solid;
+    background-color: #8ACCF3;
 }
